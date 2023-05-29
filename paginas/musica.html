@@ -4,62 +4,234 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Musica Alex Solio</title>
     <link rel="shortcut icon" href="../Multimedia/otros/Alex Icono.png">
-    <link rel="stylesheet" href="../CSS/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    <header>
-        <section id="caratulas">
-            <h1 class="separacion-titulos" id="musica">Música</h1>
-            <a href="https://open.spotify.com/track/18E5EqOJ88ZLSvTKr8dI2A?si=7f339a1ece654225" target="_blank"><img src="../Multimedia/Caratulas/Tomando-vuelo-Insta_02.jpg" alt="Carátula Tomando Vuelo" class="caratula"></a>
-            <a href="https://open.spotify.com/track/0JarAWOde5vuXthPs6SqLd?si=b0cf4c4b8e4448e7" target="_blank"><img src="../Multimedia/Caratulas/Si Fuera Así.jpg" alt="Carátula Si Fuera Así" class="caratula"></a>
-            <a href="https://open.spotify.com/track/6I38IlSQZtBwYxfHgyOits?si=803bbcc8c1d04856" target="_blank"><img src="../Multimedia/Caratulas/Mejor no hablar v3 1.jpg" alt="Carátula Mejor No Hablar" class="caratula"></a>
-            <a href="https://open.spotify.com/track/3Z93KX9QjfoiQXA9vzShl4?si=adfe77971ed44a34" target="_blank"><img src="../Multimedia/Caratulas/No estarás sola.jpg" alt="Carátula No Estarás Sola" class="caratula"></a>
-            <a href="https://open.spotify.com/track/4PsndBQ0zcE4mGP8IiVwPp?si=3a9f566e4ba94e07" target="_blank"><img src="../Multimedia/Caratulas/Cada Vez.jpg" alt="Carátula Cada Vez" class="caratula"></a>
-            <a href="https://open.spotify.com/track/2IlqyAyK2xQq5ph43Wkzo9?si=0aca27f304af4a90" target="_blank"><img src="../Multimedia/Caratulas/Una Señal.PNG" alt="Carátula Una Señal" class="caratula"></a>
+  <nav class="barra-de-navegacion"> 
+    <ul>
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="musica.html">Música</a></li>
+        <li><a href="shows.html">Shows</a></li>
+        <li><a href="timeline.html">Timeline</a></li>
+        <li><a href="tomando-vuelo.html">Tomando Vuelo</a></li>
+    </ul>
+  </nav>
+
+  <nav class="navbar navbar-dark bg-dark fixed-top navbar-sm-screen">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../index.html"><img src="../Multimedia/otros/Alex Solio blanco.png" alt="Logo Alex Solio" id="alexsoliologo-navbar"></a>
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon span-musica"></span>
+      </button>
+      <div class="offcanvas offcanvas-end text-bg-dark navbar-menu-sm-screen" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menú</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <li><a class="nav-link active" aria-current="page"href="../index.html">Inicio</a></li>
+              <li><a class="nav-link active" aria-current="page" href="musica.html">Música</a></li>
+              <li><a class="nav-link active" aria-current="page" href="shows.html">Shows</a></li>
+              <li><a class="nav-link active" aria-current="page" href="timeline.html">Timeline</a></li>
+              <li><a class="nav-link active" aria-current="page" href="tomando-vuelo.html">Tomando Vuelo</a></li>
+            </li>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+    <div class="container text-center">
+        <div class="row">
+          <div class="col">
+            <h1 class="separacion-titulos separacion-primer-titulo">Música</h1>
+          </div>
+        </div>
+    </div>
+    <section>
+        <div class="container text-center">
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <a href="https://open.spotify.com/track/18E5EqOJ88ZLSvTKr8dI2A?si=7f339a1ece654225" target="_blank"><img src="../Multimedia/Caratulas/Tomando-vuelo-Insta_02.jpg" alt="Carátula Tomando Vuelo" class="caratula carrusel"></a>
+                  </div>
+                  <div class="carousel-item">
+                    <a href="https://open.spotify.com/track/0JarAWOde5vuXthPs6SqLd?si=b0cf4c4b8e4448e7" target="_blank"><img src="../Multimedia/Caratulas/Si Fuera Así.jpg" alt="Carátula Si Fuera Así" class="caratula carrusel"></a>
+                </div>
+                  <div class="carousel-item">
+                    <a href="https://open.spotify.com/track/6I38IlSQZtBwYxfHgyOits?si=803bbcc8c1d04856" target="_blank"><img src="../Multimedia/Caratulas/Mejor no hablar v3 1.jpg" alt="Carátula Mejor No Hablar" class="caratula carrusel"></a>
+                </div>
+                  <div class="carousel-item">
+                    <a href="https://open.spotify.com/track/3Z93KX9QjfoiQXA9vzShl4?si=adfe77971ed44a34" target="_blank"><img src="../Multimedia/Caratulas/No estarás sola.jpg" alt="Carátula No Estarás Sola" class="caratula carrusel"></a>
+                </div>
+                  <div class="carousel-item">
+                    <a href="https://open.spotify.com/track/4PsndBQ0zcE4mGP8IiVwPp?si=3a9f566e4ba94e07" target="_blank"><img src="../Multimedia/Caratulas/Cada Vez.jpg" alt="Carátula Cada Vez" class="caratula carrusel"></a>
+                </div>
+                  <div class="carousel-item">
+                    <a href="https://open.spotify.com/track/2IlqyAyK2xQq5ph43Wkzo9?si=0aca27f304af4a90" target="_blank"><img src="../Multimedia/Caratulas/Una Señal.PNG" alt="Carátula Una Señal" class="caratula carrusel"></a>
+                </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon span-musica" aria-hidden="true"></span>
+                  <span class="visually-hidden span-musica">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                  <span class="carousel-control-next-icon span-musica" aria-hidden="true"></span>
+                  <span class="visually-hidden span-musica">Next</span>
+                </button>
+              </div>
+        </div>
+
+    </section>
+        <section class="spotify-section">
+          <div class="grid text-center element-center" style="--bs-columns: 10; --bs-gap: 1rem;">
+                <div class="row">
+                  <div class="col">
+                    <iframe style="border-radius:12px;" src="https://open.spotify.com/embed/artist/2CONUUVGLQfkk6TdDEH3Ce?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" class="spotify"></iframe>
+                  </div>
+                  <div class="col" id="spotify-radio-col">
+                    <iframe style="border-radius:12px;" src="https://open.spotify.com/embed/playlist/37i9dQZF1E4xZKBdFTiwIN?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" class="spotify"></iframe>
+                  </div>
+                  <div class="col" id="spotify-playlist-col">
+                    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/5pzJTFzpNaDce1cSQOn964?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" class="spotify"></iframe>      
+                  </div>
+                </div>
+              </div>
         </section>
-    </header>
-    <nav class="barra-de-navegacion"> 
-        <ul>
-            <li><a href="../index.html">Inicio</a></li>
-            <li><a href="musica.html">Música</a></li>
-            <li><a href="shows.html">Shows</a></li>
-            <li><a href="timeline.html">Timeline</a></li>
-            <li><a href="tomando-vuelo.html">Tomando Vuelo</a></li>
-        </ul>
-    </nav>
-    <main>
     <section>
-        <div id="spotify-index">
-            <iframe style="border-radius:12px;" src="https://open.spotify.com/embed/artist/2CONUUVGLQfkk6TdDEH3Ce?utm_source=generator" width="20%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" id="spotify-canciones"></iframe>
-            <iframe style="border-radius:12px;" src="https://open.spotify.com/embed/playlist/37i9dQZF1E4xZKBdFTiwIN?utm_source=generator" width="20%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" id="spotify-radio"></iframe>
-            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/5pzJTFzpNaDce1cSQOn964?utm_source=generator" width="20%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" id="spotify-playlist"></iframe>
-        </div>    
-        <h1 class="separacion-titulos">Videoclips</h1>
-        <div id="youtube-videos-musica">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/za31vxLOK6E?controls=0&amp;start=3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen id="tomando-vuelo-index"></iframe>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/Ad40KR0FxWQ?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen id="una-señal-index"></iframe>
-        </div>    
+      <div class="container text-center">
+        <div class="row">
+          <div class="col">
+            <h1 class="separacion-titulos">Videoclips</h1>
+          </div>
+        </div>  
+      </div>  
+      
+      <div class="container text-center">
+        <div class="row">
+          <div class="col p-0">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/za31vxLOK6E?controls=0&amp;start=3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="videos-musica"></iframe>
+          </div>
+          <div class="col p-0">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Ad40KR0FxWQ?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="videos-musica"></iframe>
+          </div>
+        </div>
+      </div>
     </section>
+
     <section>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col">
             <a href="https://www.youtube.com/watch?v=e70hgu3nfyA&list=PLDDtDwvP4aTGYkehusJo38dm6Dy1LJzVE&ab_channel=AlexSolio" target="_blank"><h1 class="separacion-titulos">En Vivo</h1></a>
-        <div>    
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/Rod2fc-mR8w?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen id="bioferia-vivo"></iframe>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/LJd5sboof_I?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen id="no-estaras-sola-vivo"></iframe>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/iIlbcJTjlPI?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </div>        
+          </div>
+        </div>  
+      </div>  
+      
+      <div id="carouselExampleIndicators" class="carousel slide text-center en-vivo-lg-screen">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <iframe width="400" height="315" src="https://www.youtube.com/embed/Rod2fc-mR8w?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                  
+            <iframe width="400" height="315" src="https://www.youtube.com/embed/e70hgu3nfyA?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="400" height="315" src="https://www.youtube.com/embed/iIlbcJTjlPI?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+          <div class="carousel-item">
+            <iframe width="400" height="315" src="https://www.youtube.com/embed/LJd5sboof_I?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="400" height="315" src="https://www.youtube.com/embed/ulllrvn7sIk?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="400" height="315" src="https://www.youtube.com/embed/8-w-9V57naM?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                    
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon span-musica" aria-hidden="true"></span>
+          <span class="visually-hidden span-musica">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon span-musica" aria-hidden="true"></span>
+          <span class="visually-hidden span-musica">Next</span>
+        </button>
+      </div>
+
+      <div id="carouselExampleIndicators2" class="carousel slide text-center en-vivo-md-screen">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <iframe width="400" height="315" src="https://www.youtube.com/embed/Rod2fc-mR8w?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                  
+            <iframe width="400" height="315" src="https://www.youtube.com/embed/e70hgu3nfyA?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+          <div class="carousel-item">
+            <iframe width="400" height="315" src="https://www.youtube.com/embed/iIlbcJTjlPI?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="400" height="315" src="https://www.youtube.com/embed/LJd5sboof_I?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+          <div class="carousel-item active">
+            <iframe width="400" height="315" src="https://www.youtube.com/embed/ulllrvn7sIk?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="400" height="315" src="https://www.youtube.com/embed/8-w-9V57naM?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                    
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon span-musica" aria-hidden="true"></span>
+          <span class="visually-hidden span-musica">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="next">
+          <span class="carousel-control-next-icon span-musica" aria-hidden="true"></span>
+          <span class="visually-hidden span-musica">Next</span>
+        </button>
+      </div>
+
+      <div id="carouselExampleIndicators3" class="carousel slide text-center en-vivo-sm-screen">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <iframe width="400" height="315" src="https://www.youtube.com/embed/Rod2fc-mR8w?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                  
+            </div>
+            <div class="carousel-item">
+              <iframe width="400" height="315" src="https://www.youtube.com/embed/iIlbcJTjlPI?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <div class="carousel-item active">
+              <iframe width="400" height="315" src="https://www.youtube.com/embed/ulllrvn7sIk?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon span-musica" aria-hidden="true"></span>
+            <span class="visually-hidden span-musica">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide="next">
+            <span class="carousel-control-next-icon span-musica" aria-hidden="true"></span>
+            <span class="visually-hidden span-musica">Next</span>
+          </button>
+      </div>
+
     </section>
-    </main>
-    <footer>
-        <hr>
-        <a href="https://open.spotify.com/artist/2CONUUVGLQfkk6TdDEH3Ce?si=mLNZpj29RDum9D8IPbVV1A" target="_blank"><img src="../Multimedia/Otros/spotify blanco.png" alt="Ícono Spotify" class="redes-grandes"></a>
-        <a href="https://youtube.com/alexsolio" target="_blank"><img src="../Multimedia/Otros/youtube blanco.png" alt="Ícono Youtube"></a>
-        <a href="http://www.instagram.com/alexsolio" target="_blank"><img src="../Multimedia/Otros/instagram blanco.png" alt="Ícono Instagram" class="redes-grandes"></a>
-        <br>
-        <br>
-        <p>Copyright © 2019 Sony Music Entertainment España, S.L. <br>
-            Reservados todos los derechos | Política de privacidad y cookies | Condiciones generales</p>
-    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
 </body>
+<footer>
+  <hr>
+  <a href="https://open.spotify.com/artist/2CONUUVGLQfkk6TdDEH3Ce?si=mLNZpj29RDum9D8IPbVV1A" target="_blank"><img src="../Multimedia/Otros/spotify blanco.png" alt="Ícono Spotify" class="redes-grandes"></a>
+  <a href="https://youtube.com/alexsolio" target="_blank"><img src="../Multimedia/Otros/youtube blanco.png" alt="Ícono Youtube" id="icono-youtube"></a>
+  <a href="http://www.instagram.com/alexsolio" target="_blank"><img src="../Multimedia/Otros/instagram blanco.png" alt="Ícono Instagram" class="redes-grandes"></a>
+  <br>
+  <br>
+  <p>Copyright © 2019 Sony Music Entertainment España, S.L. <br>
+      Reservados todos los derechos | Política de privacidad y cookies | Condiciones generales</p>
+</footer>
 </html>

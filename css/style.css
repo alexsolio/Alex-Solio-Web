@@ -1,353 +1,498 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 body {
-    background-color: rgb(8, 8, 8);
+  background-color: rgb(8, 8, 8);
 }
 
 /* BARRA DE NAVEGACIÓN     */
 
 @font-face {
-  font-family: "CopperplateCC";
-  src: url(../Fonts/CopperplateCC-Bold.ttf);
+font-family: "CopperplateCC";
+src: url(../Fonts/CopperplateCC-Bold.ttf);
 }
 
 nav {
-    background-color: #333;
-    color: #fff;
-    font-size: 18px;
-    font-weight: bold;
-    padding: 10px;
-    font-family: copperplatecc;
-  }
-  
-  nav ul {
-    margin: 0;
-    padding: 0;
-  }
-  
-  nav li {
-    display: inline-block;
-    margin-right: 20px;
-  }
-  
-  nav a {
-    color: #fff;
-    text-decoration: none;
-  }
-  
-  nav a:hover {
-    color: #ffd700;
-  }
+  background-color: #333;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px;
+  font-family: copperplatecc;
+}
 
-  .barra-de-navegacion {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background-color: #333;
-    color: #fff;
-    z-index: 20;
-  }
-  
-  .barra-de-navegacion ul {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 50px;
-  }
-  
-  .barra-de-navegacion li {
-    margin: 0;
-  }
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #ffd700;
+}
+
+.barra-de-navegacion {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  z-index: 20;
+}
+
+.barra-de-navegacion ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+}
+
+.barra-de-navegacion li {
+  margin: 0;
+}
 
 
-  #index {
-    position: relative;
-    height: 875px;
-    overflow: hidden;
+#index {
+  position: relative;
+  height: 875px;
+  overflow: hidden;
 }
 
 /* VIDEO DE INICIO */
 
-  #video-index {
-    width: 100%;
-    padding: 0;
-    border: 0;
-    
+#video-index {
+  width: 100%;
+  padding: 0;
+  border: 0;
+  
 }
 #alexsoliologo {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 25%;
-    height: 16%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 25%;
+  height: 16%;
 }
 #arrow {
-  position: absolute;
-  top: 790px;
-  left: 920px;
-  height: 7%;
-  
-   }
+position: absolute;
+top: 790px;
+left: 920px;
+height: 7%;
 
-   .redes-index {
-    position: absolute;
-    top: 0;
-    right: 0;
-   }   
+ }
+
+ #spotify-index, #youtube-videos-index {
+    text-align: center;
+ }
+
+ .redes-index {
+  position: absolute;
+  top: 0;
+  right: 0;
+ }   
 
 .fondo-biografia {
-    background-image: url(../Multimedia/Fotos/Mendoza.JPG);
-    background-size: cover;
-    background-position: center;
-    height: 700px;
-   
-  }
-  .biografia :not(h1){
-    text-align: left;
-    color: white;
-    width: 38%;
-    padding: 20px;
-    height: 100%;
-    margin: 60px 50px;
-    font-size: x-large;
-    background-color: rgba(53, 49, 43, 0.589);
-    border-radius: 9px;
-  }
+  background-image: url(../Multimedia/Fotos/Mendoza.JPG);
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+ 
+}
+.biografia :not(h1){
+  text-align: left;
+  color: white;
+  width: 38%;
+  padding: 20px;
+  height: 100%;
+  margin: 60px 50px;
+  font-size: x-large;
+  background-color: rgba(53, 49, 43, 0.589);
+  border-radius: 9px;
+}
 
-  h1 {
-    text-align: center;
-    color: rgb(184, 117, 41);
-    font-size: xx-large;
-    text-decoration: underline;
-     }
+h1 {
+  text-align: center;
+  color: rgb(184, 117, 41);
+  font-size: xx-large;
+  text-decoration: underline;
+   }
 
 #musica {
-    margin-top: 30px;
+  margin-top: 30px;
 }     
 .separacion-titulos {
-    margin-top: 60px;
-    margin-bottom: 60px;
+  margin-top: 60px;
+  margin-bottom: 60px;
 }     
 
-#spotify-canciones {
-    margin-left: 280px;
-    margin-right: 100px;
-}
-
-#spotify-radio {
-    margin-right: 100px;
-}
-
-#youtube-videos-index, #youtube-videos-musica {
-    margin-top: 30px;
-    margin-left: 365px;
-    margin-bottom: 30px;
+#youtube-videos-musica {
+  margin-top: 30px;
+  margin-left: 365px;
+  margin-bottom: 30px;
 }
 
 #tomando-vuelo-index {
-    margin-right: 50px;
+  margin-right: 50px;
 }
 
 .fondo-conciertos {
-    background-image: url(../Multimedia/Fotos/Bocas\ abiertas\ Bio.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 1000px;
+  background-image: url(../Multimedia/Fotos/Bocas\ abiertas\ Bio.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 1000px;
 }
 
 /* FORM */
 
 .inline-form {
-  display: inline-block;
-  height: 100px;
+display: inline-block;
+height: 100px;
 }
 
 #comments {
-    width: 400px;
-    margin: 0;
-    height: 143px;
-    vertical-align: auto;
-    margin-left: 5px;
-    margin-bottom: 15px;
+  width: 400px;
+  margin: 0;
+  height: 143px;
+  vertical-align: auto;
+  margin-left: 5px;
+  margin-bottom: 15px;
 }
 
 form {
-    margin-top: 40px;
-    font-size: 18px;
-    color: rgb(150, 130, 89);
-    text-align: center;
-    vertical-align: top;
-    height: auto;
+  margin-top: 40px;
+  font-size: 18px;
+  color: rgb(150, 130, 89);
+  text-align: center;
+  vertical-align: top;
+  height: auto;
 }
 
 .caja-form-izq {
-  width: 400px;
-  height: 30px;
-  margin-right: 5px;
+width: 400px;
+height: 30px;
+margin-right: 5px;
 }
 
 #escribime {
-  text-align: center;
-  margin-top: -40px;
-  color:rgb(150, 130, 89);
+text-align: center;
+margin-top: -40px;
+color:rgb(150, 130, 89);
 }
 
 #enviar {
-    height: 40px;
-    width: 100px;
-    font-size: 20px;
+  height: 40px;
+  width: 100px;
+  font-size: 20px;
 }
 
 
 /* MÚSICA */
 
 .caratula {
-  width: 300px;
-  margin-left: 10px;
+width: 300px;
+margin-left: 10px;
 }
 
 #caratulas {
-  margin-bottom: 100px;
-  margin-left: 5px;
+margin-bottom: 100px;
+margin-left: 5px;
 }
 
 #bioferia-vivo {
-  margin-left: 100px;
-  margin-right: 10px;
+margin-left: 100px;
+margin-right: 10px;
 }
 
 #no-estaras-sola-vivo {
-  margin-right: 10px;
+margin-right: 10px;
 }
 
 #videos-por-el-mundo {
-  margin-left: 100px;
+text-align: center;
 }
 
 .separacion-titulos-tomando-vuelo {
-  margin: 60px 0 60px -100px;
+margin: 60px 0 60px 0;
 }     
 
 /* TIMELINE */
 
 .bloque-izquierda {
-  display: inline-block;
-  width: 50%;
-  height: auto;
-  border-right: solid 5px white;
-  color: white;
-  text-align: right;
-  padding-right: 10px;
+display: inline-block;
+width: 50%;
+height: auto;
+border-right: solid 5px white;
+color: white;
+text-align: right;
+padding-right: 10px;
 }
 
 .bloque-izquierda img {
-  width: 35%;
+width: 35%;
 }
 
 .bloque-derecha-vacio {
-  display: inline-block;
-  width: 30%;
-  height: auto;
-  border: 0;
-  color: white;
-  text-align: right;
-  padding: 0;
+display: inline-block;
+width: 30%;
+height: auto;
+border: 0;
+color: white;
+text-align: right;
+padding: 0;
 }
 
 .bloque-izquierda-vacio {
-  display: inline-block;
-  width: 50%;
-  height: 600px;
-  border-right: solid 5px white;
-  color: white;
-  text-align: right;
-  padding-right: 10px;
+display: inline-block;
+width: 50%;
+height: 600px;
+border-right: solid 5px white;
+color: white;
+text-align: right;
+padding-right: 10px;
 }
 
 .bloque-derecha {
-  display: inline-block;
-  position: absolute;
-  padding-left: 10px;
-  width: 40%;
-  height: auto;
-  color: white;
-  text-align: left;
-  padding-right: 10px;
+display: inline-block;
+position: absolute;
+padding-left: 10px;
+width: 40%;
+height: auto;
+color: white;
+text-align: left;
+padding-right: 10px;
 }
 
 .bloque-derecha img {
-  width: 35%;
+width: 35%;
 }
 
 #bloques-timeline {
-  position: relative;
+position: relative;
 }
 fieldset {
-  color: white;
-  width: 50vw;
-  height: 700px;
-  margin-left: auto;
-  margin-right: auto;
-  border: solid;
-  background-color: #33333375;
+color: white;
+width: 50vw;
+height: 700px;
+margin-left: auto;
+margin-right: auto;
+border: solid;
+background-color: #33333375;
 }
 
 legend {
-  margin-left: 20px;
-  padding: 0 5px;
+margin-left: 20px;
+padding: 0 5px;
 }
 
 span {
-  position: relative;
-  bottom: 15px;
-  right: 20px;
-  text-align: right;
-  border: solid white;
-  float: right;
-  font-size: 25px;
-  padding: 5px;
-  background-color: #33333371;
-  color: white;
-  border-radius: 10px;
+position: relative;
+bottom: 15px;
+right: 20px;
+text-align: right;
+border: solid white;
+float: right;
+font-size: 25px;
+padding: 5px;
+background-color: #33333371;
+color: white;
+border-radius: 10px;
 
 }
 
 .inline-shows {
-  display: inline;
-  padding: 20px;
-  color: rgb(214, 155, 78);
+display: inline;
+padding: 20px;
+color: rgb(214, 155, 78);
 }
 
 h3 {
-  font-size: 30px;
+font-size: 30px;
 }
 
 hr {
-  margin: 10px 0;
+margin: 10px 0;
 }
 
 fieldset {
-  padding: 10px;
+padding: 10px;
 }
 
 footer {
-  color: white;
-  text-align: center;
-  margin-bottom: 100px;
-  margin-top: 100px;
+color: white;
+text-align: center;
+margin-bottom: 100px;
+margin-top: 100px;
 }
 
 .redes-grandes {
-  height: 37px;
-  width: 37px;
-  padding-bottom: 6px;
+height: 37px;
+width: 37px;
+padding-bottom: 6px;
 }
 
 .past-shows {
 color:rgb(150, 130, 89);
+}
+
+/* MUSICA BOOTSTRAP */
+
+.carrusel {
+height: 25vw;
+width: auto;
+}
+
+.spotify {
+min-width: 300px;
+max-width: 416px;
+}
+
+.spotify-section {
+margin-top: 70px;
+}
+
+@media (max-width: 1209px) {
+#spotify-playlist-col {
+  display: none;
+}
+
+.en-vivo-lg-screen {
+  display: none;
+}
+
+}
+
+@media (max-width: 805px) {
+#spotify-radio-col {
+  display: none;
+}
+
+.videos-musica {
+  width: 100%;
+  height: auto;
+  min-width: 336px;
+}
+
+.en-vivo-md-screen {
+  display: none;
+}
+
+}
+
+@media (min-width: 1210px) {
+.en-vivo-md-screen {
+  display: none;
+}
+
+}
+
+@media (min-width: 806px) {
+.en-vivo-sm-screen {
+  display: none;
+}
+
+}
+
+@media (max-width: 670px) {
+.carrusel {
+  height: 50vw;
+  width: auto;
+  }
+
+.barra-de-navegacion {
+  display: none;
+}  
+
+.separacion-primer-titulo {
+  margin-top: 100px;
+}
+}
+
+#icono-youtube {
+margin-bottom: 6px;
+width: 45px;
+}
+
+#alexsoliologo-navbar {
+height: 60px;
+}
+
+@media (min-width: 671px) {
+.navbar-sm-screen {
+  display: none;
+}
+}
+
+/* TIMELINE BOOTSTRAP */
+.span-musica {
+position: static;
+}
+
+.offcanvas.offcanvas-end {
+width: 260px;
+}
+
+.col-left {
+border-right: #fff solid;
+width: 50%;
+text-align: right;
+}
+
+.year-left {
+color: white;
+text-align: right;
+}
+
+.year-right {
+color: white;
+text-align: left;
+}
+
+.imagenes-timeline {
+width: 48%;
+vertical-align: bottom;
+height: auto;
+object-fit: cover;
+}
+
+.videos-timeline {
+width: 100%;
+}
+
+@media (max-width: 671px) {
+.sm-screen-timeline {
+  display: none;
+}
+
+.col-left {
+  display: none;
+}
+
+.col-right {
+  border-left: #fff solid;
+}
+
+.row {
+  border-top: #fff solid;
+  border-top-width: thin;
+}
+
+}
+
+@media (min-width: 670px) {
+.lg-screen-timeline {
+  display: none;
+}
 }

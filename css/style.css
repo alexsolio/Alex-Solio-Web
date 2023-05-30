@@ -10,7 +10,7 @@ body {
 
 @font-face {
 font-family: "CopperplateCC";
-src: url(../Fonts/CopperplateCC-Bold.ttf);
+src: url(../fonts/copperplatecc-bold.ttf);
 }
 
 nav {
@@ -105,7 +105,7 @@ height: 7%;
  }   
 
 .fondo-biografia {
-  background-image: url(../Multimedia/Fotos/Mendoza.JPG);
+  background-image: url(../multimedia/fotos/mendoza.jpg);
   background-size: cover;
   background-position: center;
   height: 700px;
@@ -149,7 +149,7 @@ h1 {
 }
 
 .fondo-conciertos {
-  background-image: url(../Multimedia/Fotos/Bocas\ abiertas\ Bio.jpg);
+  background-image: url(../multimedia/fotos/bocas_abiertas.jpg);
   background-size: cover;
   background-position: center;
   height: 1000px;

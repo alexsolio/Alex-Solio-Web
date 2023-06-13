@@ -98,7 +98,7 @@ nav a:hover {
 .biografia__bio {
   text-align: left;
   color: white;
-  width: 38vw;
+  width: 50vw;
   padding: 20px;
   height: auto;
   margin: 20px 50px;
@@ -328,6 +328,154 @@ h3 {
   .videos-shows {
     width: 80vw;
   }
+}
+/* MUSICA BOOTSTRAP */
+.carrusel {
+  height: 25vw;
+  width: auto;
+}
+
+.spotify {
+  min-width: 300px;
+  max-width: 416px;
+}
+
+.spotify-section {
+  margin-top: 70px;
+}
+
+@media (max-width: 1209px) {
+  #spotify-playlist-col {
+    display: none;
+  }
+  .en-vivo-lg-screen {
+    display: none;
+  }
+}
+@media (max-width: 805px) {
+  #spotify-radio-col {
+    display: none;
+  }
+  .videos-musica {
+    width: 100%;
+    height: auto;
+    min-width: 336px;
+  }
+  .en-vivo-md-screen {
+    display: none;
+  }
+}
+@media (min-width: 1210px) {
+  .en-vivo-md-screen {
+    display: none;
+  }
+}
+@media (min-width: 806px) {
+  .en-vivo-sm-screen {
+    display: none;
+  }
+}
+@media (max-width: 670px) {
+  .carrusel {
+    height: 50vw;
+    width: auto;
+  }
+  .barra-de-navegacion {
+    display: none;
+  }
+  .separacion-primer-titulo {
+    margin-top: 100px;
+  }
+}
+#icono-youtube {
+  margin-bottom: 6px;
+  width: 45px;
+}
+
+#alexsoliologo-navbar {
+  height: 60px;
+}
+
+@media (min-width: 671px) {
+  .navbar-sm-screen {
+    display: none;
+  }
+}
+/* TIMELINE BOOTSTRAP */
+.span-musica {
+  position: static;
+}
+
+.offcanvas.offcanvas-end {
+  width: 260px;
+}
+
+.col-left {
+  border-right: #fff solid;
+  width: 50%;
+  text-align: right;
+}
+
+.year-left {
+  color: white;
+  text-align: right;
+}
+
+.year-right {
+  color: white;
+  text-align: left;
+}
+
+.imagenes-timeline {
+  width: 48%;
+  vertical-align: bottom;
+  height: auto;
+  object-fit: cover;
+}
+
+.imagenes-timeline:hover {
+  transform: scale(1.4);
+  transition-duration: 0.5s;
+}
+
+.videos-timeline {
+  width: 100%;
+}
+
+@media (max-width: 671px) {
+  .sm-screen-timeline {
+    display: none;
+  }
+  .col-left {
+    display: none;
+  }
+  .col-right {
+    border-left: #fff solid;
+  }
+  .timeline .row {
+    border-top: #fff solid;
+    border-top-width: thin;
+  }
+}
+@media (min-width: 672px) {
+  .lg-screen-timeline {
+    display: none;
+  }
+}
+#video-index {
+  width: 100%;
+  padding: 0;
+  border: 0;
+}
+
+#index {
+  position: relative;
+  height: auto;
+  overflow: hidden;
+}
+
+.separacion-titulos-tomando-vuelo {
+  margin: 60px 0 60px 0;
 }
 
 /*# sourceMappingURL=styles.css.map */

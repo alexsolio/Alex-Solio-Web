@@ -335,7 +335,8 @@ footer {
 
 
 .contenedor-videos  {
-    margin-left: 10vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
 }
 
 h3 {
@@ -556,6 +557,70 @@ h3 {
             @media (max-width:1320px) {
                 display: none;
             }
+        }
 
-            
-             }
+.site-map {
+    height: 16vw;
+    display: grid;
+    margin: 20px 5vw 100px 5vw;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    grid-template-areas: 
+        "logo seccionesT suscribiteT"
+        "mail secciones suscribite";
+
+    h4 {
+        font-size: 3vw;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    &__logo {
+        grid-area: logo;
+        height: 100%;
+        &__img {
+            width: 75%;
+        }
+    }
+
+    &__suscribite {
+        grid-area: suscribite;
+
+    }
+
+    &__titulo-suscribite {
+        grid-area: suscribiteT;
+    }
+
+    &__mail {
+        grid-area: mail;
+    }
+
+    &__secciones {
+        grid-area: secciones;
+        display: flex;
+        justify-content: center;
+    }
+
+    &__titulo-secciones {
+        grid-area: seccionesT;
+    }
+
+    ul{
+        list-style-type: disc;
+        padding: 0;
+    }
+
+    li {
+        color: #fff;
+        display: flex;
+        align-items: center;
+        text-align: left;
+        font-size: 1.6vw;
+    }
+
+    p {
+        font-size: 1.7vw;
+    }
+}
+
